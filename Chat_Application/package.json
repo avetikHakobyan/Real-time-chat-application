@@ -1,0 +1,17 @@
+{
+  "name": "ahakobyan_h30a02",
+  "version": "1.0.0",
+  "description": "Real time chat app using web sockets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Avetik Hakobyan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.3"
+  }
+}
